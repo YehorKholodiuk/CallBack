@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlusButton = (props) => {
     const click =() => {
-        props.buttonOnClick()
+        props.buttonOnClick(8787)
     };
     return (
         <div>

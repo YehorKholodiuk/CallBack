@@ -3,8 +3,8 @@ import './App.css';
 import PlusButton from "./PlusButton";
 
 function App() {
-  const appClick = () => {
-    console.log('APP CLICK')
+  const appClick = (n) => {
+    console.log('APP CLICK',n)
   };
   return (
 <div>
