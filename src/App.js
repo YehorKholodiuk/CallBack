@@ -8,6 +8,7 @@ function App() {
   const [name,setName] = useState('ABC')
   const onChangeName = (newValue) => {
     console.log('New Value', newValue)
+    setName(newValue)
   }
   const appClick = (n) => {
     console.log('APP CLICK',n)
