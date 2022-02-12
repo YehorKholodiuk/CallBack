@@ -7,6 +7,7 @@ const PlusButton1 = (props) => {
     return (
         <div>
  <input value={props.value} onChange={onChange}/>
+            <button onClick={() => props.onChange('')}>Reset</button>
         </div>
     );
 };
